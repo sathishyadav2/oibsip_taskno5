@@ -6,9 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+
     tools:context=".MainActivity">
     <Chronometer
         android:id="@+id/stopwatch"
+        android:background="#9fe8ed"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"/>
@@ -16,6 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Start"
+
             android:onClick="startChronometer"/>
     <Button
         android:layout_width="wrap_content"
